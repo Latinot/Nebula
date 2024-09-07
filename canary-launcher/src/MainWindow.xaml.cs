@@ -20,7 +20,7 @@ namespace CanaryLauncherUpdate
 {
 	public partial class MainWindow : Window
 	{
-		static string launcerConfigUrl = "‪C:\canary-launcher\launcher_config.json";
+		static string launcerConfigUrl = "‪https://github.com/Latinot/Nebula/blame/main/canary-launcher/launcher_config.json";
 		// Load informations of launcher_config.json file
 		static ClientConfig clientConfig = ClientConfig.loadFromFile(launcerConfigUrl);
 
